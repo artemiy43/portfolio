@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer__container {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}

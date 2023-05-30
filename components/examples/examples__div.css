@@ -1,0 +1,51 @@
+.examples__div {
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../../../images/cover-trains.jpg); */
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.how-to-learn {
+    background-image: url(../../images/Научиться\ учиться.PNG);
+}
+
+.russian-travel {
+    background-image: url(../../images/russian_travel.PNG);
+}
+
+.weather {
+    background-image: url(../../images/weather.PNG);
+}
+
+.advice {
+    background-color: rgb(201, 21, 21);
+}
+
+.examples__div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    opacity: .3;
+    z-index: -1;
+    transition: opacity 1s linear;
+}
+
+.examples__div:hover::after {
+    opacity: .8;
+    cursor: pointer;
+  }

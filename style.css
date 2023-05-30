@@ -1,0 +1,47 @@
+@import url(./components/content/content.css);
+
+@import url(./components/header/header.css);
+@import url(./components/header/header__links.css);
+@import url(./components/header/header__link.css);
+
+@import url(./components/about/about.css);
+@import url(./components/about/about__text-container.css);
+@import url(./components/about/about__img.css);
+
+@import url(./components/technologies/technologies.css);
+@import url(./components/technologies/technologies__based.css);
+@import url(./components/technologies/technologies__backend.css);
+@import url(./components/technologies/technologies__frontend.css);
+@import url(./components/technologies/technologies__cell.css);
+@import url(./components/technologies/technologies__title.css);
+@import url(./components/technologies/technologies__img.css);
+
+@import url(./components/map/map.css);
+@import url(./components/map/map__text.css);
+
+@import url(./components/examples/examples.css);
+@import url(./components/examples/examples__div.css);
+@import url(./components/examples/examples__container.css);
+
+@import url(./components/footer/footer.css);
+@import url(./components/footer/footer__link.css);
+@import url(./components/footer/footer__img.css);
+@import url(./components/footer/footer__text.css);
+.hidden {
+    transform: translateX(-100%);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}

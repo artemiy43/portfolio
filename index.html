@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+<body class="content">
+    <header id='header' class="header">
+        <div class="header__links">
+            <a class="header__link" href="#about">Обо мне</a>
+            <a class="header__link" href="#technologies">Стек технологий</a>
+            <a class="header__link" href="#examples">Примеры работ</a>
+            <a class="header__link" href="#footer">Контакты</a>
+        </div>
+    </header>
+    <main class="main">
+        <section id="about" class="about hidden">
+            <div class="about__text-container">
+                <h1 class="about__title">
+                    Рад знакомству!
+                </h1>
+                <p class="about__text">
+                    Меня зовут Бондарь Артемий. Недавно переехал в Санкт-Петербург, начинающий веб-разработчик. Хочу стать frontend- или fullstack-разработчиком.<br><br><br>
+                    В данный момент учусь в магистратуре университета ИТМО по специальности "Веб-технологии". Проходил курс "веб-разработчик" от <a href="https://practicum.yandex.ru/" class="about__link" target="_blank">Яндекс.Практикум</a>.<br><br><br>
+                    В свободное время люблю играть в компьютерные игры, смотреть фильмы и гулять по красивому городу на Неве.
+                </p>
+            </div>
+            <img src="./images/я.jpg" class="about__img" alt="фотография">
+        </section>
+        <section id="map" class="map"></section>
+            <h3 class="map__text">Мир очень большой и я хочу посетить много разных интересных стран!</h3>
+            <div id="chartdiv"></div>
+        </section>
+        <section id="technologies" class="technologies hidden">
+            <h1 class="technologies__title">Стек технологий</h1>
+            <h2 class="technologies__title">Общие</h2>
+            <div class="technologies__based">
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/git.png">
+                    <p>git</p>
+                </div>
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/npm.png">
+                    <p>npm</p>
+                </div>
+            </div>
+            <h2 class="technologies__title">Фронтенд</h2>
+            <div class="technologies__frontend">
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/html.png">
+                    <p>html</p>
+                </div>
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/css.png">
+                    <p>css</p>
+                </div>
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/js.png">
+                    <p>javascript</p>
+                </div>
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/react.png">
+                    <p>React JS</p>
+                </div>
+            </div>
+            <h2 class="technologies__title">Бэкенд</h2>
+            <div class="technologies__backend">
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/icons8-nodejs-100.png">
+                    <p>Node JS</p>
+                </div>
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/express-js.png">
+                    <p>Express JS</p>
+                </div>
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/icons8-sql-100.png">
+                    <p>SQL</p>
+                </div>
+                <div class="technologies__cell">
+                    <img class="technologies__img" alt="технология" src="./images/icons8-mongodb-100.png">
+                    <p>Mongo DB</p>
+                </div>
+            </div>
+        </section>
+        <section id="examples" class="examples">
+            <h1>Некоторые мои пэт-проекты</h1>
+            <div class="examples__container">
+                <a href="https://artemiy43.github.io/how-to-learn/" target="_blank" class="examples__div how-to-learn">
+                    <h2>
+                        "Научиться учиться"<br>
+                        (HTML + CSS)
+                    </h2>
+                </a>
+                <a href="https://artemiy43.github.io/russian-travel/" target="_blank" class="examples__div russian-travel">
+                    <h2>
+                        "Russian travel"<br>
+                        (HTML + CSS + адаптив)
+                    </h2>
+                </a>
+                <a href="https://advice-app-orpin.vercel.app/" target="_blank" class="examples__div advice">
+                    <h2>
+                        "Advice App"<br>
+                        (React JS + Advice API)
+                    </h2>
+                </a>
+                <a href="https://weather-taupe-rho.vercel.app/" target="_blank" class="examples__div weather">
+                    <h2>
+                        "Weather App"<br>
+                        (React JS + ArcGIS API + Open Weather API)
+                    </h2>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <h1>Контакты</h1>
+        <div class="footer__container">
+            <a href="https://github.com/artemiy43" class="footer__link" target="_blank"><img src="./images/github.png" class="footer__img"> <p class="footer__text-link underlined underline-clip">github</p></a>
+            <a href="https://vk.com/bondarbond" class="footer__link" target="_blank"><img src="./images/vkontakte.png" class="footer__img"> <p class="footer__text-link underlined underline-clip">vk</p></a>
+            <a href="https://t.me/Bond_bond_bond" class="footer__link" target="_blank"><img src="./images/telegram.png" class="footer__img"> <p class="footer__text-link underlined underline-clip">telegram</p></a>
+        </div>
+    </footer>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
