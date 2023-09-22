@@ -1,3 +1,9 @@
 .map__text {
-    text-align: center;
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .map__text {
+    font-size: 16px;
+  }
 }

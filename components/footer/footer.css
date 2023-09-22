@@ -1,13 +1,25 @@
 .footer {
-    width: 100%;
-    text-align: center;
-    padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
 }
 
 .footer__container {
-    padding: 25px 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 20px 0;
+  }
 }

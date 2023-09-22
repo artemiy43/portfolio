@@ -1,8 +1,30 @@
 .about__img {
-    margin-left: 30px;
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 5px;
+  margin-left: 30px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+@media (max-width: 1100px) {
+  .about__img {
+    margin-left: 0;
+    order: 1;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about__img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about__img {
+    width: 320px;
+    height: 320px;
+  }
 }

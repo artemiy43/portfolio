@@ -1,16 +1,15 @@
 .about {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-#chartdiv {
-    width: 100%;
-    min-height: 500px;
-    max-width: 100%;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}  
+@media (max-width: 1100px) {
+  .about {
+    flex-direction: column;
+    min-height: 100%;
+  }
+}
