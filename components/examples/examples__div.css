@@ -49,6 +49,10 @@
   background-image: url(../../images/map.svg);
 }
 
+.mesto {
+  background-image: url(../../images/mesto.JPG);
+}
+
 .examples__div::after {
   content: "";
   position: absolute;
