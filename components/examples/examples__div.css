@@ -54,8 +54,12 @@
   background-image: url(../../images/mesto2.JPG);
 }
 
-.vue {
+.vue_dialog {
   background-image: url(../../images/Vue.png);
+}
+
+.equations {
+  background-image: url(../../images/equations2.JPG);
 }
 
 .examples__div::after {
