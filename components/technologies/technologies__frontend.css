@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 1400px) {
   .technologies__frontend {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-}
+} */
