@@ -61,6 +61,9 @@
 .equations {
   background-image: url(../../images/equations2.JPG);
 }
+.ipoteka {
+  background-image: url(../../images/ruble-svgrepo-com.svg);
+}
 
 .examples__div::after {
   content: "";
