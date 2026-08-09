@@ -44,7 +44,7 @@ var chart = root.container.children.push(
     paddingTop: 20,
     paddingLeft: 20,
     paddingRight: 20,
-  })
+  }),
 );
 
 // Create main polygon series for countries
@@ -52,7 +52,7 @@ var chart = root.container.children.push(
 var polygonSeries = chart.series.push(
   am5map.MapPolygonSeries.new(root, {
     geoJSON: am5geodata_worldLow,
-  })
+  }),
 );
 
 polygonSeries.mapPolygons.template.setAll({
@@ -102,7 +102,6 @@ polygonSeries.data.setAll([
 ]);
 
 polygonSeries.mapPolygons.template.states.create("hover", {
-  //   fill: root.interfaceColors.get("primaryButtonHover")
   fill: am5.color(0x677935),
 });
 
@@ -125,12 +124,6 @@ graticuleSeries.mapLines.template.setAll({
   strokeOpacity: 0.1,
   stroke: root.interfaceColors.get("alternativeBackground"),
 });
-
-// var favSeries = chart.series.push(am5map.GraticuleSeries.new(root, {}));
-// favSeries.mapLines.template.setAll({
-//   strokeOpacity: 0.1,
-//   stroke: root.interfaceColors.get("alternativeBackground"),
-// });
 
 // Rotate animation
 chart.animate({
